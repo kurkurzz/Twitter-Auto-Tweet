@@ -1,7 +1,9 @@
 # Twitter Auto Tweet 
- Automatically tweet daily using Python and Selenium.
+ Automatically tweet daily using Python and Selenium without using Twitter API.
 
-**Take Note** : The steps below is to run the bot in linux environment. If you know how to do the same in Windows environment can make a pull request.
+**Take Note** : 
+- The steps below is to run the bot in linux environment. If you know how to do the same in Windows environment can make a pull request.
+- The driver in ```drivers``` folder is only for linux, for windows, download from https://sites.google.com/a/chromium.org/chromedriver/downloads
  ## Steps to create this bot
  <br>
 
@@ -15,7 +17,16 @@ Type the command in terminal
  ### 2. Clone this repository
 <br>
 
- ### 3. Run the script
+### 3. Create ```credentials.py``` file
+Insert code below
+    
+    credential = {
+        'EMAIL' = 'twitter-email'
+        'PASSWORD' = 'twitter-password'
+        'PHONE_NUMBER' = 'twitter-phone-number'
+    }
+
+ ### 4. Run the script
  <br>
 
 - In the project directory terminal, run command
