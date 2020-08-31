@@ -21,9 +21,9 @@ Type the command in terminal
 Insert code below
     
     credential = {
-        'EMAIL' = 'twitter-email'
-        'PASSWORD' = 'twitter-password'
-        'PHONE_NUMBER' = 'twitter-phone-number'
+        'EMAIL' : 'twitter-email',
+        'PASSWORD' : 'twitter-password',
+        'PHONE_NUMBER' : 'twitter-phone-number'
     }
 
  ### 4. Run the script
