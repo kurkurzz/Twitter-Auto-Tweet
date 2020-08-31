@@ -1,0 +1,1 @@
+oneoff: python main.py
