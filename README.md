@@ -33,7 +33,7 @@ Insert code below
     >$ sudo python3 main.py
 
 - To enable script running in the background even after closed terminal, in the project directory terminal, run command
-    >$ sudo nohup python3 -u main.py &
+    >$ nohup python3 -u main.py &
 
     - To kill the process, run command
          >$ ps ax | grep main.py
