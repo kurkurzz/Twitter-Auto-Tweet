@@ -21,9 +21,9 @@ Type the command in terminal
 Insert code below
     
     credential = {
-        'EMAIL' = 'twitter-email'
-        'PASSWORD' = 'twitter-password'
-        'PHONE_NUMBER' = 'twitter-phone-number'
+        'EMAIL' : 'twitter-email',
+        'PASSWORD' : 'twitter-password',
+        'PHONE_NUMBER' : 'twitter-phone-number'
     }
 
  ### 4. Run the script
@@ -33,7 +33,7 @@ Insert code below
     >$ sudo python3 main.py
 
 - To enable script running in the background even after closed terminal, in the project directory terminal, run command
-    >$ sudo nohup python3 -u main.py &
+    >$ nohup python3 -u main.py &
 
     - To kill the process, run command
          >$ ps ax | grep main.py
