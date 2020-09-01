@@ -31,7 +31,7 @@ def run():
     op.add_argument('--no-sandbox')
     op.add_argument('--headless')
     op.add_argument('--disable-dev-shm-usage')
-    driver = webdriver.Chrome(executable_path= r'/home/kurkurzz/Documents/Python Project/Twitter-Auto-Tweet-withSchedule/drivers/chromedriver',chrome_options=op)
+    driver = webdriver.Chrome(executable_path= r'''/home/kurkurzz/Documents/Python Project/Twitter-Auto-Tweet/drivers/chromedriver''',chrome_options=op)
 
     driver.get('https://twitter.com/')
     print('-Loaded Twitter')
