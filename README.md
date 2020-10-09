@@ -43,4 +43,9 @@ Insert code below
     - To see the log file, run command
         >$ tail -f nohup.out
 
+### 5. Edit time interval
+<br>
 
+- Take a look at Python's schedule documentation and you can change it however you want (the code is at the end of the main.py file).
+
+- By default, it was set to 7 AM every day.
